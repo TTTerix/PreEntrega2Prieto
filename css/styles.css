@@ -45,7 +45,7 @@ ul a:hover{
 
 
 main{
-    height: calc(100vh - 150px);
+    /* height: calc(100vh - 150px); */
     width: 100%;
     background-color: #EA9999;
 }
@@ -114,6 +114,7 @@ footer p{
     width: 100%;
     height: auto;
     transition: transform 0.2s ease-out;
+    border: 2px solid #000;
 }
 
 .item:hover img {

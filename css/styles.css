@@ -122,3 +122,36 @@ footer p{
 .item:hover img {
     transform: scale(1.1);
 }  
+
+@media screen and (max-width: 425px) {
+    header {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #EA9999;
+    }
+    
+    .logo {
+    font-size: 1.5rem;
+    }
+    
+    nav {
+    display: none;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    background-color: #EA9999;
+    }
+    
+    nav a {
+    display: block;
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+    text-align: center;
+    }
+    .galeria-inicio{
+        height: 300px;
+    }
+}  

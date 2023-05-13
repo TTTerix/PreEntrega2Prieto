@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-header{
+header {
     height: 150px;
+    background-image: linear-gradient(to top, #643843, #6e3f4d, #784756, #824f61, #8c576b, #945e74, #9d667c, #a56d85, #ae758d, #b67d96, #bf869e, #c88ea7);
     background-color: #EA9999;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
@@ -14,8 +15,8 @@ header{
     text-transform: uppercase;
     text-shadow: 0 0 10px #000;
     border: 2px solid #000;
-    /* font-weight: bold; */
 }
+
 
 .logo{
     display: flex;
@@ -47,8 +48,8 @@ ul a:hover{
 
 
 main{
-    /* height: calc(100vh - 150px); */
     width: 100%;
+    background-image: linear-gradient(to top, #643843, #6e3f4d, #784756, #824f61, #8c576b, #945e74, #9d667c, #a56d85, #ae758d, #b67d96, #bf869e, #c88ea7);
     background-color: #EA9999;
 }
 
@@ -81,12 +82,14 @@ section img:hover {
     color: #fff;
     text-shadow: 0 0 10px #000;
     padding: 20px;
+    background-image: linear-gradient(to top, #643843, #6e3f4d, #784756, #824f61, #8c576b, #945e74, #9d667c, #a56d85, #ae758d, #b67d96, #bf869e, #c88ea7);
     background-color: #EA9999;
 }
 
 footer{
     text-align: center;
     font-size: 30px;
+    background-image: linear-gradient(to top, #643843, #6e3f4d, #784756, #824f61, #8c576b, #945e74, #9d667c, #a56d85, #ae758d, #b67d96, #bf869e, #c88ea7);
     background-color: #EA9999;
     color: #fff;
     text-transform: uppercase;
@@ -121,7 +124,96 @@ footer p{
 
 .item:hover img {
     transform: scale(1.1);
-}  
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    height: 100vh;
+}
+
+.left {
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+    background-image: linear-gradient(to top, #643843, #6e3f4d, #784756, #824f61, #8c576b, #945e74, #9d667c, #a56d85, #ae758d, #b67d96, #bf869e, #c88ea7);
+    padding: 20px;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #000;
+    border: 2px solid #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.right-top {
+    grid-column: 2 / -1;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.right-bottom {
+    grid-column: 2 / -1;
+    grid-row: 2 / -1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.right-top img,
+.right-bottom img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s ease-out;
+    margin: 60px;
+    border: 2px solid #000;
+}
+
+.right-top img:hover,
+.right-bottom img:hover {
+    transform: scale(1.1);
+}
+
+.right-top,
+.right-bottom {
+padding: 10px;
+}
+
+.turnos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+    height: 100vh;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.turnos-container h1 {
+    margin-bottom: 40px;
+}
+
+.pasos-lista {
+    list-style-type: decimal;
+    padding: 0;
+    width: 80%;
+    max-width: 600px;
+    margin-top: 40px;
+}
+
+.paso-item {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
 
 @media screen and (max-width: 425px) {
     header {
@@ -131,6 +223,7 @@ footer p{
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 1rem;
+    background-image: linear-gradient(to top, #643843, #6e3f4d, #784756, #824f61, #8c576b, #945e74, #9d667c, #a56d85, #ae758d, #b67d96, #bf869e, #c88ea7);
     background-color: #EA9999;
     }
     
@@ -142,6 +235,7 @@ footer p{
     display: none;
     flex-direction: column;
     padding: 0.5rem 1rem;
+    background-image: linear-gradient(to top, #643843, #6e3f4d, #784756, #824f61, #8c576b, #945e74, #9d667c, #a56d85, #ae758d, #b67d96, #bf869e, #c88ea7);
     background-color: #EA9999;
     }
     
@@ -151,6 +245,7 @@ footer p{
     font-size: 1.2rem;
     text-align: center;
     }
+
     .galeria-inicio{
         height: 300px;
     }

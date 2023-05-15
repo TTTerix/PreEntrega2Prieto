@@ -1,0 +1,41 @@
+header {
+    height: 150px;
+    background-image: linear-gradient(to top, #643843, #6e3f4d, #784756, #824f61, #8c576b, #945e74, #9d667c, #a56d85, #ae758d, #b67d96, #bf869e, #c88ea7);
+    background-color: #EA9999;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #000;
+    border: 2px solid #000;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.barra{
+    display: flex;
+    justify-content: center
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul a{
+    color: #fff;
+    text-decoration: none;
+}
+
+ul a:hover{
+    color: #000;
+}

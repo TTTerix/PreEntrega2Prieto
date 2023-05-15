@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "_header";
+@import "_main";
+@import "_index";
+@import "_footer";
+@import "_tattoos";
+@import "_pecasyarreglos";
+@import "_turnos";
+
+@import "_media425px";
+@import "_mediamobile";

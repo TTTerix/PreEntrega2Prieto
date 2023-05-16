@@ -32,16 +32,16 @@ ul {
   list-style: none;
 }
 
-ul li {
+li {
   display: inline-block;
 }
 
-ul a {
+a {
   color: #fff;
   text-decoration: none;
 }
 
-ul a:hover {
+a:hover {
   color: #000;
 }
 
@@ -98,7 +98,7 @@ footer {
   padding: 20px;
 }
 
-footer p {
+p {
   margin-bottom: 20px;
 }
 
